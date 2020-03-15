@@ -1,0 +1,20 @@
+server:
+     port: 8090
+spring:
+  profiles:
+    active: dev
+debug: true
+#debug -true 打印自动配置类的启用情况
+#     yml中多配置文件。不需要多个文件，一个文件中用 --- 分隔开就行了 用profiles active来指定用哪个
+---
+
+server:
+  port: 8091
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8092
+spring:
+  profiles: prod
