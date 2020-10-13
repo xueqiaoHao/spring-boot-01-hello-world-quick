@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<version>4.13.1</version>
 		</dependency>
 		<!--导入配置文件处理器。以后编写配置会给提示-->
 		<dependency>
